@@ -1,11 +1,11 @@
 import React from 'react'
 
-export default function HelloWorld() {
+export default () => {
     const info = "Hey hey hey, Hammer to Fall!"
     return(
-        <div>
-            <h2>Hello World Component</h2>
+        <> {/* this is a React Fragment */}
+            <h2>Hello World Component Anonymized</h2>
             <p>{info}</p>
-        </div>
+        </>
     )
 }
