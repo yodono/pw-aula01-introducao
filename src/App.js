@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
+import HelloWorld from './components/basic/HelloWorld';
 
 class App extends Component {
   render(){
     return (
         <div>
-          <h2>I'm now a class component! :]</h2>
+          <h2>Class 01 - React Fundamentals</h2>
+          <HelloWorld />
         </div>
       );
   }
